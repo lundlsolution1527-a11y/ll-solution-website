@@ -31,7 +31,7 @@ jobs:
         run: |
           rm -rf site
           mkdir site
-          unzip -o ll-solution-website-v5-klar.zip -d site
+          unzip -o ll-solution-website-v6-fix.zip -d site
 
       - name: GitHub Pages einrichten
         uses: actions/configure-pages@v5
